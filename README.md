@@ -1,5 +1,3 @@
-# Digital Circuit System
-
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c">
   <img src="https://img.shields.io/badge/Project-Digital%20Circuit%20System-green?style=for-the-badge">
@@ -7,9 +5,11 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 </p>
 
-A C-based implementation of **Combinational and Sequential Digital Circuits**.
+# Digital Circuit System
 
-This project demonstrates the working of commonly used digital circuits using the **C programming language**. It provides a menu-driven Digital Circuit System and also includes separate standalone programs for individual circuits.
+A C-based implementation of commonly used **Combinational and Sequential Digital Circuits**.
+
+This project demonstrates the working and implementation of various digital circuits using the **C programming language**. It provides a menu-driven Digital Circuit System and also includes separate standalone programs for individual circuits.
 
 ---
 
@@ -22,8 +22,8 @@ This project demonstrates the working of commonly used digital circuits using th
 * Header files for function declarations
 * Separate standalone programs for individual circuits
 * Binary input validation
-* State-based behavior for sequential circuits
-* Simple and easy-to-understand implementation
+* State-based implementation of sequential circuits
+* Simple and easy-to-understand C implementation
 
 ---
 
@@ -142,34 +142,6 @@ The user can select a circuit category and then choose the required digital circ
 
 ---
 
-## 🖼️ Program Preview
-
-### Main Menu
-
-![Main Menu](images/main_menu.png)
-
-### Combinational Circuits
-
-![Combinational Circuits](images/combinational_menu.png)
-
-### Sequential Circuits
-
-![Sequential Circuits](images/sequential_menu.png)
-
-### Half Adder
-
-![Half Adder](images/half_adder.png)
-
-### JK Flip-Flop
-
-![JK Flip-Flop](images/jk_flipflop.png)
-
-### 4-Bit Up Counter
-
-![4-Bit Up Counter](images/up_counter.png)
-
----
-
 ## 🧠 Concepts Used
 
 ### Combinational Circuits
@@ -228,8 +200,8 @@ Through this project, the following concepts were implemented and understood:
 * Add more digital circuits
 * Implement additional types of registers
 * Add more types of counters
-* Implement priority encoder
-* Implement multi-bit comparator
+* Implement a priority encoder
+* Implement a multi-bit comparator
 * Improve input validation
 * Add a graphical user interface
 
