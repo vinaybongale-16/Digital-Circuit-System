@@ -1,27 +1,35 @@
 # Digital Circuit System
 
-A C-based implementation of fundamental **Combinational** and **Sequential Digital Circuits**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/Project-Digital%20Circuit%20System-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Circuits-Combinational%20%26%20Sequential-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+</p>
 
-This project demonstrates the working and logic of commonly used digital circuits through a menu-driven C program. It also includes separate standalone programs for individual circuits.
+A C-based implementation of **Combinational and Sequential Digital Circuits**.
+
+This project demonstrates the working of commonly used digital circuits using the **C programming language**. It provides a menu-driven Digital Circuit System and also includes separate standalone programs for individual circuits.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
 * Menu-driven Digital Circuit System
-* Implementation using the C programming language
-* Separate modules for combinational and sequential circuits
+* Implementation of combinational circuits
+* Implementation of sequential circuits
+* Modular programming using multiple C files
 * Header files for function declarations
-* Binary input validation
-* State-based implementation for sequential circuits
-* Clock-pulse-based counters
 * Separate standalone programs for individual circuits
+* Binary input validation
+* State-based behavior for sequential circuits
+* Simple and easy-to-understand implementation
 
 ---
 
 ## 🔷 Combinational Circuits
 
-The project includes the following combinational circuits:
+The following combinational circuits are implemented:
 
 * Half Adder
 * Full Adder
@@ -38,7 +46,7 @@ The project includes the following combinational circuits:
 
 ## 🔶 Sequential Circuits
 
-The project includes the following sequential circuits:
+The following sequential circuits are implemented:
 
 * SR Flip-Flop
 * JK Flip-Flop
@@ -94,7 +102,7 @@ Digital-Circuit-System/
 
 ## ⚙️ Compilation
 
-To compile the complete Digital Circuit System, open a terminal in the project directory and run:
+Open the terminal in the project directory and compile the complete program using:
 
 ```bash
 gcc src/main.c src/combinational.c src/sequential.c -Iinclude -o digital_circuit_system
@@ -104,13 +112,13 @@ gcc src/main.c src/combinational.c src/sequential.c -Iinclude -o digital_circuit
 
 ## ▶️ Running the Program
 
-### On Windows
+### Windows
 
 ```bash
 digital_circuit_system.exe
 ```
 
-### On Linux/macOS
+### Linux/macOS
 
 ```bash
 ./digital_circuit_system
@@ -118,9 +126,7 @@ digital_circuit_system.exe
 
 ---
 
-## 🖥️ Main Menu
-
-When the program runs, the user can choose between:
+## 🖥️ Program Menu
 
 ```text
 =============================================
@@ -132,15 +138,43 @@ When the program runs, the user can choose between:
 3. Exit
 ```
 
-Each section provides a separate menu for selecting the required digital circuit.
+The user can select a circuit category and then choose the required digital circuit from the corresponding menu.
 
 ---
 
-## 🧠 Project Concepts
+## 🖼️ Program Preview
+
+### Main Menu
+
+![Main Menu](images/main_menu.png)
 
 ### Combinational Circuits
 
-The output of a combinational circuit depends only on the current input values.
+![Combinational Circuits](images/combinational_menu.png)
+
+### Sequential Circuits
+
+![Sequential Circuits](images/sequential_menu.png)
+
+### Half Adder
+
+![Half Adder](images/half_adder.png)
+
+### JK Flip-Flop
+
+![JK Flip-Flop](images/jk_flipflop.png)
+
+### 4-Bit Up Counter
+
+![4-Bit Up Counter](images/up_counter.png)
+
+---
+
+## 🧠 Concepts Used
+
+### Combinational Circuits
+
+The output of a combinational circuit depends only on the **present input values**.
 
 Examples include:
 
@@ -154,7 +188,7 @@ Examples include:
 
 ### Sequential Circuits
 
-The output of a sequential circuit depends on the current inputs as well as the previous state.
+The output of a sequential circuit depends on the **present input values and previous state**.
 
 Examples include:
 
@@ -166,31 +200,17 @@ Examples include:
 
 ## 📚 Learning Outcomes
 
-This project helped in understanding:
+Through this project, the following concepts were implemented and understood:
 
 * Digital logic fundamentals
 * Combinational circuit operations
 * Sequential circuit operations
-* Flip-Flops and state behavior
+* Flip-Flop behavior
 * Registers and counters
 * Modular programming in C
 * Header files and function declarations
-* Multi-file C projects
-* Menu-driven program design
-
----
-
-## 🚀 Future Improvements
-
-Possible future improvements include:
-
-* Additional digital circuits
-* More types of registers
-* Additional counters
-* Priority encoder implementation
-* Multi-bit comparator
-* Improved input handling
-* Graphical user interface
+* Multi-file C programming
+* Menu-driven application development
 
 ---
 
@@ -200,6 +220,18 @@ Possible future improvements include:
 * GCC Compiler
 * Visual Studio Code
 * GitHub
+
+---
+
+## 🚀 Future Improvements
+
+* Add more digital circuits
+* Implement additional types of registers
+* Add more types of counters
+* Implement priority encoder
+* Implement multi-bit comparator
+* Improve input validation
+* Add a graphical user interface
 
 ---
 
